@@ -20,8 +20,8 @@ import java.util.Scanner;
 public class RoBach {
 
 	  Robot robot = new Robot();	// Primitive object in Java used to make key presses.
-	  static int bpm;				// Used to keep track of what BPM RoBach should play at.
-	  static String key;			// Used to keep track of which key is going to be played.
+	  static int bpm;		// Used to keep track of what BPM RoBach should play at.
+	  static String key;		// Used to keep track of which key is going to be played.
 
 	  // Get the scale and bpm the user wants Robach to play at.
 	  public static void main(String[] args) throws AWTException {
