@@ -43,7 +43,7 @@ public class RoBach {
 	  // This is where RoBach actually does actions.
 	  public RoBach() throws AWTException
 	  {
-		// Slight delay before actions take place.
+	    // Slight delay before actions take place.
 	    robot.setAutoDelay(40);
 	    robot.setAutoWaitForIdle(true);
 	    
